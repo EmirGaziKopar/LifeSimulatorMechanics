@@ -265,10 +265,9 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: "I was born a female in city , Country . \u015Fu \u015Fu sebepten d\xFCnyaya
-    geldim \n\nDo\u011Fum g\xFCn\xFCm \u015Fu g\xFCn \n\nAnnemin ad\u0131 \u015Fu
-    ve \u015Fu i\u015Fi yap\u0131yor (ya\u015F) \n\nBabam\u0131n ad\u0131 \u015Fu
-    \u015Fu i\u015Fi yap\u0131yor \n\nKarde\u015Fimin ad\u0131 \u015Fu\n\n"
+  m_text: '
+
+'
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
   m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
@@ -302,7 +301,7 @@ MonoBehaviour:
   m_fontSizeMin: 18
   m_fontSizeMax: 72
   m_fontStyle: 0
-  m_HorizontalAlignment: 1
+  m_HorizontalAlignment: 2
   m_VerticalAlignment: 256
   m_textAlignment: 65535
   m_characterSpacing: 0
@@ -374,15 +373,68 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ffce5c3230b51b14eace87a57a1a3411, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  BirthInfo: {fileID: 399227053}
+  ulke: 
+  cities: 
+  reasonsOfBorn: 
+  myName: 
+  sex: 
+  motherName: 
+  fatherName: 
+  brotherName: 
+  sisterName: 
+  motherAge: 0
+  fatherAge: 0
+  sisterAge: 0
+  bornMonth: 
+  bornDay: 0
+  numberOfBrother: 0
+  numberOfSister: 0
+  motherJobs: 
+  fatherJobs: 
   gender:
-  - "kad\u0131n"
-  - erkek
+  - female
+  - male
   country:
-  - Turkish
+  - Turkey
   - Germany
   - Switzerland
   - Italy
   - America
+  AmericaCities:
+  - Atlanta
+  - Baltimore
+  - Boston
+  - Brooklyn
+  - Charleston
+  - New york
+  - Orlando
+  - Philadelphia
+  - Phoenix
+  TurkeyCities:
+  - Ankara
+  - Istanbul
+  - Izmir
+  ItalyCities:
+  - Cagliari
+  - Florence
+  - Genoa
+  - Milan
+  - Roma
+  - Pisa
+  Switzerland:
+  - Basel
+  - Bern
+  - Lugano
+  - Zurich
+  - Lausanne
+  GermanyCities:
+  - Dusseldorf
+  - Frankfurt
+  - Hamburg
+  - Hanover
+  - Leipzig
+  - Munich
   americaFemaleNames:
   - Liam Olivia
   - Noah Emma
@@ -450,12 +502,18 @@ MonoBehaviour:
   - Dental Assistant
   - Architect
   - Bus Driver
-  fatherAndMotherAge: 1c0000001d0000001e0000001f000000200000002100000022000000230000002400000025000000260000002700000028000000290000002a0000002b0000005d1100002e0000002f000000300000003100000032000000340000003600000038000000
+  reasons:
+  - I came out of my dad's torn condom
+  - I'm here because my mom wants to warm up on a cold winter day.
+  - I was born because my dad made a timing mistake
+  - I was born because my father doesn't like condoms
+  - My mother said the storks brought me
+  - I was born because my parents often play sports
+  - I have no idea why I'm here
   birthdayMonth:
   - Janurary
   - February
   - March
-  - April
   - April
   - May
   - June
@@ -465,7 +523,6 @@ MonoBehaviour:
   - October
   - November
   - December
-  birthdayDay: 0100000002000000030000000400000005000000060000000700000008000000090000000a0000000b0000000c0000000d0000000e0000000f000000100000001100000012000000130000001400000015000000160000001700000018000000190000001a0000001b0000001c000000
   numberOfSiblings: 00000000010000000200000003000000
 --- !u!4 &734460300
 Transform:
